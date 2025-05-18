@@ -14,7 +14,6 @@ testSuites:
   - npx codeceptjs run $files --steps
 
 post:
-  commands:
-    - echo "Post stage complete"
+  - echo "Post stage complete"
 
 jobLabel: [playwright-CodeceptJS, linux, matrix] 

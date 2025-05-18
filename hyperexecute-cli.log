@@ -589,3 +589,15 @@
 {"level":"info","time":"2025-05-18T03:04:59.840+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed Tasks:                         0"}
 {"level":"info","time":"2025-05-18T03:04:59.841+0600","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
 {"level":"debug","time":"2025-05-18T03:05:28.959+0600","caller":"cmd/bin.go:346","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2025-05-19T04:28:25.288+0600","caller":"cmd/bin.go:137","msg":"cli os: windows, cli arch: amd64"}
+{"level":"error","time":"2025-05-19T04:28:27.967+0600","caller":"cmd/bin.go:143","msg":"2025-05-19T04:28:23+06:00    error    \u001b[91mERR::UP::VER\u001b[0m     Unable to fetch latest version from upstream  \u001b[91mERR::HTTP::RESP\u001b[0m     non-20x status code 401    Invalid user/key credentials"}
+{"level":"debug","time":"2025-05-19T04:28:41.730+0600","caller":"cmd/bin.go:137","msg":"cli os: windows, cli arch: amd64"}
+{"level":"error","time":"2025-05-19T04:28:42.880+0600","caller":"cmd/bin.go:143","msg":"2025-05-19T04:28:40+06:00    error    \u001b[91mERR::UP::VER\u001b[0m     Unable to fetch latest version from upstream  \u001b[91mERR::HTTP::RESP\u001b[0m     non-20x status code 401    Invalid user/key credentials"}
+{"level":"debug","time":"2025-05-19T04:29:18.036+0600","caller":"cmd/bin.go:137","msg":"cli os: windows, cli arch: amd64"}
+{"level":"error","time":"2025-05-19T04:29:19.199+0600","caller":"cmd/bin.go:143","msg":"2025-05-19T04:29:16+06:00    error    \u001b[91mERR::UP::VER\u001b[0m     Unable to fetch latest version from upstream  \u001b[91mERR::HTTP::RESP\u001b[0m     non-20x status code 401    Invalid user/key credentials"}
+{"level":"error","time":"2025-05-19T04:30:01.988+0600","caller":"globalconfigvalidator/setup.go:54","msg":"2025-05-19T04:30:01+06:00    error    \u001b[91mERR::NO::USER\u001b[0m     Unable to find LT username.    Unable to parse LT username. Use --user cli flag or LT_USERNAME environment variable"}
+{"level":"error","time":"2025-05-19T04:30:01.988+0600","caller":"cmd/bin.go:119","msg":"2025-05-19T04:30:01+06:00    error    \u001b[91mERR::NO::USER\u001b[0m     Unable to find LT username."}
+{"level":"debug","time":"2025-05-19T04:30:28.220+0600","caller":"cmd/bin.go:137","msg":"cli os: windows, cli arch: amd64"}
+{"level":"error","time":"2025-05-19T04:30:29.424+0600","caller":"cmd/bin.go:143","msg":"2025-05-19T04:30:26+06:00    error    \u001b[91mERR::UP::VER\u001b[0m     Unable to fetch latest version from upstream  \u001b[91mERR::HTTP::RESP\u001b[0m     non-20x status code 401    Invalid user/key credentials"}
+{"level":"debug","time":"2025-05-19T04:30:48.771+0600","caller":"cmd/bin.go:137","msg":"cli os: windows, cli arch: amd64"}
+{"level":"error","time":"2025-05-19T04:30:49.996+0600","caller":"cmd/bin.go:143","msg":"2025-05-19T04:30:47+06:00    error    \u001b[91mERR::UP::VER\u001b[0m     Unable to fetch latest version from upstream  \u001b[91mERR::HTTP::RESP\u001b[0m     non-20x status code 401    Invalid user/key credentials"}
