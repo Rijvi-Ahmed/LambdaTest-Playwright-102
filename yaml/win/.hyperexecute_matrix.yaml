@@ -1,0 +1,22 @@
+version: '0.1'
+matrix:
+  os: [win]
+  files: ["lambdatest102_test.js"]
+ 
+runson: ${matrix.os}
+ 
+pre:
+  - npm install
+  - npx playwright install
+ 
+cacheKey: '{{ checksum "package-lock.json" }}'
+cacheDirectories:
+  - node_modules
+ 
+testSuites:
+  - npx codeceptjs run ${matrix.files} --steps
+
+post:
+  - echo "Post stage complete"
+ 
+jobLabel: [playwright-CodeceptJS, win, matrix]

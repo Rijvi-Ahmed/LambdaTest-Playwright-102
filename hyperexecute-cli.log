@@ -1,0 +1,591 @@
+{"level":"debug","time":"2025-05-18T01:49:25.016+0600","caller":"cmd/bin.go:137","msg":"cli os: windows, cli arch: amd64"}
+{"level":"error","time":"2025-05-18T01:49:26.272+0600","caller":"cmd/bin.go:143","msg":"2025-05-18T01:49:23+06:00    error    \u001b[91mERR::UP::VER\u001b[0m     Unable to fetch latest version from upstream  \u001b[91mERR::HTTP::RESP\u001b[0m     non-20x status code 401    Invalid user/key credentials"}
+{"level":"debug","time":"2025-05-18T01:51:04.678+0600","caller":"cmd/bin.go:137","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-05-18T01:51:05.732+0600","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.273} "}
+{"level":"warn","time":"2025-05-18T01:51:05.734+0600","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-05-18T01:51:05.735+0600","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-05-18T01:51:09.471+0600","caller":"core/lifecycle.go:108","msg":"Setting environment"}
+{"level":"debug","time":"2025-05-18T01:51:09.472+0600","caller":"core/lifecycle.go:111","msg":"Parsing config"}
+{"level":"debug","time":"2025-05-18T01:51:09.472+0600","caller":"yamlconfigmanager/setup.go:717","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/win/.hyperexecute_matrix.yaml"}
+{"level":"debug","time":"2025-05-18T01:51:09.472+0600","caller":"yamlconfigmanager/setup.go:117","msg":"using hyperexecute config from : yaml/win/.hyperexecute_matrix.yaml"}
+{"level":"debug","time":"2025-05-18T01:51:09.474+0600","caller":"yamlconfigmanager/setup.go:1880","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-05-18T01:51:09.474+0600","caller":"yamlconfigmanager/setup.go:1880","msg":"Environment variable not set against the variable - matrix.files mentioned in yaml"}
+{"level":"debug","time":"2025-05-18T01:51:10.491+0600","caller":"yamlconfigmanager/setup.go:2108","msg":"Autodetecting test type in files of path : D:\\foreman\\HyperExecute\\Playwright-Assignment-102"}
+{"level":"debug","time":"2025-05-18T01:51:10.491+0600","caller":"yamlconfigmanager/setup.go:2150","msg":"File in which test type is detected - D:\\foreman\\HyperExecute\\Playwright-Assignment-102/package.json"}
+{"level":"debug","time":"2025-05-18T01:51:10.491+0600","caller":"yamlconfigmanager/setup.go:2151","msg":"Pre command in which test type is detected - echo \"Installing dependencies and Playwright browsers\""}
+{"level":"debug","time":"2025-05-18T01:51:10.492+0600","caller":"yamlconfigmanager/setup.go:509","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2025-05-18T01:51:11.401+0600","caller":"yamlconfigmanager/setup.go:541","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-05-18T01:51:11.401+0600","caller":"models/HypertestYamlConfig.go:874","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-05-18T01:51:11.402+0600","caller":"models/HypertestYamlConfig.go:673","msg":"Mode:    \u001b[36mhybrid\u001b[0m"}
+{"level":"info","time":"2025-05-18T01:51:11.403+0600","caller":"models/HypertestYamlConfig.go:727","msg":"Parallelism:    \u001b[36m Mac - 1 Linux - 1 Windows - 1  Default - 1\u001b[0m"}
+{"level":"info","time":"2025-05-18T01:51:11.403+0600","caller":"models/HypertestYamlConfig.go:735","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"info","time":"2025-05-18T01:51:11.404+0600","caller":"models/HypertestYamlConfig.go:743","msg":"Concurrency:    \u001b[36m3\u001b[0m"}
+{"level":"info","time":"2025-05-18T01:51:11.404+0600","caller":"models/HypertestYamlConfig.go:807","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-05-18T01:51:11.405+0600","caller":"models/HypertestYamlConfig.go:821","msg":"Artefacts:"}
+{"level":"info","time":"2025-05-18T01:51:11.405+0600","caller":"models/HypertestYamlConfig.go:824","msg":"    HTML Report:    \u001b[36mplaywright-report/**\u001b[0m"}
+{"level":"info","time":"2025-05-18T01:51:11.406+0600","caller":"models/HypertestYamlConfig.go:824","msg":"    Test Results:    \u001b[36mtest-results/**\u001b[0m"}
+{"level":"info","time":"2025-05-18T01:51:11.406+0600","caller":"models/HypertestYamlConfig.go:824","msg":"    Trace Files:    \u001b[36mtrace-files/**\u001b[0m"}
+{"level":"info","time":"2025-05-18T01:51:11.407+0600","caller":"models/HypertestYamlConfig.go:824","msg":"    Screenshots:    \u001b[36mscreenshots/**\u001b[0m"}
+{"level":"info","time":"2025-05-18T01:51:11.407+0600","caller":"models/HypertestYamlConfig.go:839","msg":"Cache Directories:"}
+{"level":"info","time":"2025-05-18T01:51:11.407+0600","caller":"models/HypertestYamlConfig.go:841","msg":"    \u001b[36mnode_modules\u001b[0m"}
+{"level":"info","time":"2025-05-18T01:51:11.408+0600","caller":"models/HypertestYamlConfig.go:887","msg":""}
+{"level":"debug","time":"2025-05-18T01:51:11.408+0600","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-18T01:51:11.408+0600","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2025-05-18T01:51:12.717+0600","caller":"core/lifecycle.go:437","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 2.67 % of your limit. Free trial mins left - 292.00\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2025-05-18T01:51:12.717+0600","caller":"core/lifecycle.go:516","msg":"Job ID: dd3f7c8e-5e93-4c30-b9ee-29e664e16f78"}
+{"level":"debug","time":"2025-05-18T01:51:12.717+0600","caller":"core/lifecycle.go:522","msg":"User has provided playwright as test type for the job with ID dd3f7c8e-5e93-4c30-b9ee-29e664e16f78"}
+{"level":"debug","time":"2025-05-18T01:51:12.717+0600","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-05-18T01:51:12.717+0600","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-05-18T01:51:12.720+0600","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-05-18T01:51:12.721+0600","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: D:\\foreman\\HyperExecute\\Playwright-Assignment-102"}
+{"level":"debug","time":"2025-05-18T01:51:14.171+0600","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-05-18T01:51:32.021+0600","caller":"core/lifecycle.go:659","msg":"Zip file size: 229.80 MB"}
+{"level":"debug","time":"2025-05-18T01:51:32.022+0600","caller":"core/lifecycle.go:669","msg":"Archive location: D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-dd3f7c8e-5e93-4c30-b9ee-29e664e16f78.zip\n"}
+{"level":"debug","time":"2025-05-18T01:51:32.023+0600","caller":"storage/azure.go:59","msg":"Payload size: 229.80 MB, source path D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-dd3f7c8e-5e93-4c30-b9ee-29e664e16f78.zip"}
+{"level":"debug","time":"2025-05-18T01:52:54.603+0600","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-05-18T01:52:56.478+0600","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-05-18T01:54:36.501+0600","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-05-18T01:54:37.586+0600","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-05-18T01:54:37.743+0600","caller":"storage/azure.go:114","msg":"File upload completed in 3m5.720388s"}
+{"level":"debug","time":"2025-05-18T01:54:37.744+0600","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-05-18T01:54:37.744+0600","caller":"receptionmanager/setup.go:296","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-05-18T01:54:37.744+0600","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-05-18T01:54:37.745+0600","caller":"storage/azure.go:59","msg":"Payload size: 5.05 kB, source path D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-05-18T01:54:49.018+0600","caller":"storage/azure.go:114","msg":"File upload completed in 11.2731697s"}
+{"level":"debug","time":"2025-05-18T01:54:49.038+0600","caller":"core/lifecycle.go:696","msg":"Successfully deleted code archive: D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-dd3f7c8e-5e93-4c30-b9ee-29e664e16f78.zip\n"}
+{"level":"debug","time":"2025-05-18T01:54:49.041+0600","caller":"storage/azure.go:59","msg":"Payload size: 1.43 kB, source path yaml\\win\\mask-dd3f7c8e-5e93-4c30-b9ee-29e664e16f78.yaml"}
+{"level":"info","time":"2025-05-18T01:55:00.103+0600","caller":"storage/azure.go:114","msg":"File upload completed in 11.0628516s"}
+{"level":"error","time":"2025-05-18T01:55:03.955+0600","caller":"dispatchermanager/setup.go:79","msg":"2025-05-18T01:51:03+06:00    error    Dispatcher request failed (URL=https://api-hyperexecute.lambdatest.com/dispatcher): Post \"https://api-hyperexecute.lambdatest.com/dispatcher/api/dispatcher\": POST https://api-hyperexecute.lambdatest.com/dispatcher/api/dispatcher giving up after 2 attempt(s)"}
+{"level":"error","time":"2025-05-18T01:55:03.956+0600","caller":"core/lifecycle.go:742","msg":"2025-05-18T01:51:03+06:00    error    ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2025-05-18T01:55:03.957+0600","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-05-18T01:55:03.957+0600","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-05-18T01:55:33.958+0600","caller":"cmd/bin.go:346","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2025-05-18T01:55:33.958+0600","caller":"cmd/bin.go:385","msg":"Exiting application due to error ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2025-05-18T02:00:45.350+0600","caller":"cmd/bin.go:137","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-05-18T02:00:46.208+0600","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.273} "}
+{"level":"warn","time":"2025-05-18T02:00:46.216+0600","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-05-18T02:00:46.217+0600","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-05-18T02:00:49.867+0600","caller":"core/lifecycle.go:108","msg":"Setting environment"}
+{"level":"debug","time":"2025-05-18T02:00:49.867+0600","caller":"core/lifecycle.go:111","msg":"Parsing config"}
+{"level":"debug","time":"2025-05-18T02:00:49.867+0600","caller":"yamlconfigmanager/setup.go:717","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/win/.hyperexecute_matrix.yaml"}
+{"level":"debug","time":"2025-05-18T02:00:49.867+0600","caller":"yamlconfigmanager/setup.go:117","msg":"using hyperexecute config from : yaml/win/.hyperexecute_matrix.yaml"}
+{"level":"debug","time":"2025-05-18T02:00:49.869+0600","caller":"yamlconfigmanager/setup.go:1880","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-05-18T02:00:49.869+0600","caller":"yamlconfigmanager/setup.go:1880","msg":"Environment variable not set against the variable - matrix.files mentioned in yaml"}
+{"level":"debug","time":"2025-05-18T02:00:50.870+0600","caller":"yamlconfigmanager/setup.go:2108","msg":"Autodetecting test type in files of path : D:\\foreman\\HyperExecute\\Playwright-Assignment-102"}
+{"level":"debug","time":"2025-05-18T02:00:50.870+0600","caller":"yamlconfigmanager/setup.go:2150","msg":"File in which test type is detected - D:\\foreman\\HyperExecute\\Playwright-Assignment-102/package.json"}
+{"level":"debug","time":"2025-05-18T02:00:50.870+0600","caller":"yamlconfigmanager/setup.go:2151","msg":"Pre command in which test type is detected - echo \"Installing dependencies and Playwright browsers\""}
+{"level":"debug","time":"2025-05-18T02:00:50.870+0600","caller":"yamlconfigmanager/setup.go:509","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2025-05-18T02:00:51.731+0600","caller":"yamlconfigmanager/setup.go:541","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-05-18T02:00:51.731+0600","caller":"models/HypertestYamlConfig.go:874","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-05-18T02:00:51.732+0600","caller":"models/HypertestYamlConfig.go:673","msg":"Mode:    \u001b[36mhybrid\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:00:51.733+0600","caller":"models/HypertestYamlConfig.go:727","msg":"Parallelism:    \u001b[36m Mac - 1 Linux - 1 Windows - 1  Default - 1\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:00:51.733+0600","caller":"models/HypertestYamlConfig.go:735","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:00:51.733+0600","caller":"models/HypertestYamlConfig.go:743","msg":"Concurrency:    \u001b[36m3\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:00:51.734+0600","caller":"models/HypertestYamlConfig.go:807","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:00:51.734+0600","caller":"models/HypertestYamlConfig.go:821","msg":"Artefacts:"}
+{"level":"info","time":"2025-05-18T02:00:51.734+0600","caller":"models/HypertestYamlConfig.go:824","msg":"    HTML Report:    \u001b[36mplaywright-report/**\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:00:51.734+0600","caller":"models/HypertestYamlConfig.go:824","msg":"    Test Results:    \u001b[36mtest-results/**\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:00:51.735+0600","caller":"models/HypertestYamlConfig.go:824","msg":"    Trace Files:    \u001b[36mtrace-files/**\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:00:51.735+0600","caller":"models/HypertestYamlConfig.go:824","msg":"    Screenshots:    \u001b[36mscreenshots/**\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:00:51.736+0600","caller":"models/HypertestYamlConfig.go:839","msg":"Cache Directories:"}
+{"level":"info","time":"2025-05-18T02:00:51.737+0600","caller":"models/HypertestYamlConfig.go:841","msg":"    \u001b[36mnode_modules\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:00:51.738+0600","caller":"models/HypertestYamlConfig.go:887","msg":""}
+{"level":"debug","time":"2025-05-18T02:00:51.739+0600","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-18T02:00:51.739+0600","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2025-05-18T02:00:52.790+0600","caller":"core/lifecycle.go:437","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 2.67 % of your limit. Free trial mins left - 292.00\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2025-05-18T02:00:52.790+0600","caller":"core/lifecycle.go:516","msg":"Job ID: 60315ed4-3f88-4859-a279-09a3ae8f23f0"}
+{"level":"debug","time":"2025-05-18T02:00:52.790+0600","caller":"core/lifecycle.go:522","msg":"User has provided playwright as test type for the job with ID 60315ed4-3f88-4859-a279-09a3ae8f23f0"}
+{"level":"debug","time":"2025-05-18T02:00:52.790+0600","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-05-18T02:00:52.790+0600","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-05-18T02:00:52.793+0600","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-05-18T02:00:52.793+0600","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: D:\\foreman\\HyperExecute\\Playwright-Assignment-102"}
+{"level":"debug","time":"2025-05-18T02:00:54.257+0600","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-05-18T02:01:16.622+0600","caller":"core/lifecycle.go:659","msg":"Zip file size: 229.59 MB"}
+{"level":"debug","time":"2025-05-18T02:01:16.622+0600","caller":"core/lifecycle.go:669","msg":"Archive location: D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-60315ed4-3f88-4859-a279-09a3ae8f23f0.zip\n"}
+{"level":"debug","time":"2025-05-18T02:01:16.623+0600","caller":"storage/azure.go:59","msg":"Payload size: 229.59 MB, source path D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-60315ed4-3f88-4859-a279-09a3ae8f23f0.zip"}
+{"level":"debug","time":"2025-05-18T02:02:34.753+0600","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-05-18T02:02:35.738+0600","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-05-18T02:04:15.731+0600","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"info","time":"2025-05-18T02:04:16.284+0600","caller":"storage/azure.go:114","msg":"File upload completed in 2m59.661416s"}
+{"level":"debug","time":"2025-05-18T02:04:16.285+0600","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-05-18T02:04:16.285+0600","caller":"receptionmanager/setup.go:296","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-05-18T02:04:16.285+0600","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-05-18T02:04:16.286+0600","caller":"storage/azure.go:59","msg":"Payload size: 5.05 kB, source path D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-05-18T02:04:17.397+0600","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-05-18T02:04:27.330+0600","caller":"storage/azure.go:114","msg":"File upload completed in 11.045094s"}
+{"level":"debug","time":"2025-05-18T02:04:27.351+0600","caller":"core/lifecycle.go:696","msg":"Successfully deleted code archive: D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-60315ed4-3f88-4859-a279-09a3ae8f23f0.zip\n"}
+{"level":"debug","time":"2025-05-18T02:04:27.354+0600","caller":"storage/azure.go:59","msg":"Payload size: 1.43 kB, source path yaml\\win\\mask-60315ed4-3f88-4859-a279-09a3ae8f23f0.yaml"}
+{"level":"info","time":"2025-05-18T02:04:38.495+0600","caller":"storage/azure.go:114","msg":"File upload completed in 11.1421092s"}
+{"level":"error","time":"2025-05-18T02:04:42.193+0600","caller":"dispatchermanager/setup.go:79","msg":"2025-05-18T02:00:44+06:00    error    Dispatcher request failed (URL=https://api-hyperexecute.lambdatest.com/dispatcher): Post \"https://api-hyperexecute.lambdatest.com/dispatcher/api/dispatcher\": POST https://api-hyperexecute.lambdatest.com/dispatcher/api/dispatcher giving up after 2 attempt(s)"}
+{"level":"error","time":"2025-05-18T02:04:42.193+0600","caller":"core/lifecycle.go:742","msg":"2025-05-18T02:00:44+06:00    error    ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2025-05-18T02:04:42.194+0600","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-05-18T02:04:42.194+0600","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-05-18T02:05:12.195+0600","caller":"cmd/bin.go:346","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2025-05-18T02:05:12.195+0600","caller":"cmd/bin.go:385","msg":"Exiting application due to error ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2025-05-18T02:12:08.882+0600","caller":"cmd/bin.go:137","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-05-18T02:12:09.730+0600","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.273} "}
+{"level":"debug","time":"2025-05-18T02:14:06.356+0600","caller":"cmd/bin.go:137","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-05-18T02:14:07.182+0600","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.273} "}
+{"level":"warn","time":"2025-05-18T02:14:07.190+0600","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-05-18T02:14:07.191+0600","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-05-18T02:14:11.121+0600","caller":"core/lifecycle.go:108","msg":"Setting environment"}
+{"level":"debug","time":"2025-05-18T02:14:11.121+0600","caller":"core/lifecycle.go:111","msg":"Parsing config"}
+{"level":"debug","time":"2025-05-18T02:14:11.121+0600","caller":"yamlconfigmanager/setup.go:717","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/win/.hyperexecute_matrix.yaml"}
+{"level":"debug","time":"2025-05-18T02:14:11.121+0600","caller":"yamlconfigmanager/setup.go:117","msg":"using hyperexecute config from : yaml/win/.hyperexecute_matrix.yaml"}
+{"level":"debug","time":"2025-05-18T02:14:11.123+0600","caller":"yamlconfigmanager/setup.go:1880","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-05-18T02:14:11.123+0600","caller":"yamlconfigmanager/setup.go:1880","msg":"Environment variable not set against the variable - matrix.files mentioned in yaml"}
+{"level":"debug","time":"2025-05-18T02:14:12.085+0600","caller":"yamlconfigmanager/setup.go:2108","msg":"Autodetecting test type in files of path : D:\\foreman\\HyperExecute\\Playwright-Assignment-102"}
+{"level":"debug","time":"2025-05-18T02:14:12.085+0600","caller":"yamlconfigmanager/setup.go:2150","msg":"File in which test type is detected - D:\\foreman\\HyperExecute\\Playwright-Assignment-102/package.json"}
+{"level":"debug","time":"2025-05-18T02:14:12.085+0600","caller":"yamlconfigmanager/setup.go:2151","msg":"Pre command in which test type is detected - echo \"Installing dependencies and Playwright browsers\""}
+{"level":"debug","time":"2025-05-18T02:14:12.086+0600","caller":"yamlconfigmanager/setup.go:509","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2025-05-18T02:14:12.957+0600","caller":"yamlconfigmanager/setup.go:541","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-05-18T02:14:12.957+0600","caller":"models/HypertestYamlConfig.go:874","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-05-18T02:14:12.957+0600","caller":"models/HypertestYamlConfig.go:673","msg":"Mode:    \u001b[36mhybrid\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:14:12.959+0600","caller":"models/HypertestYamlConfig.go:727","msg":"Parallelism:    \u001b[36m Windows - 1  Default - 1\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:14:12.959+0600","caller":"models/HypertestYamlConfig.go:735","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:14:12.960+0600","caller":"models/HypertestYamlConfig.go:743","msg":"Concurrency:    \u001b[36m3\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:14:12.960+0600","caller":"models/HypertestYamlConfig.go:807","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:14:12.961+0600","caller":"models/HypertestYamlConfig.go:821","msg":"Artefacts:"}
+{"level":"info","time":"2025-05-18T02:14:12.961+0600","caller":"models/HypertestYamlConfig.go:824","msg":"    HTML Report:    \u001b[36mplaywright-report/**\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:14:12.962+0600","caller":"models/HypertestYamlConfig.go:824","msg":"    Test Results:    \u001b[36mtest-results/**\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:14:12.962+0600","caller":"models/HypertestYamlConfig.go:824","msg":"    Trace Files:    \u001b[36mtrace-files/**\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:14:12.963+0600","caller":"models/HypertestYamlConfig.go:824","msg":"    Screenshots:    \u001b[36mscreenshots/**\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:14:12.963+0600","caller":"models/HypertestYamlConfig.go:839","msg":"Cache Directories:"}
+{"level":"info","time":"2025-05-18T02:14:12.963+0600","caller":"models/HypertestYamlConfig.go:841","msg":"    \u001b[36mnode_modules\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:14:12.963+0600","caller":"models/HypertestYamlConfig.go:887","msg":""}
+{"level":"debug","time":"2025-05-18T02:14:12.964+0600","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-18T02:14:12.964+0600","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2025-05-18T02:14:14.002+0600","caller":"core/lifecycle.go:437","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 2.67 % of your limit. Free trial mins left - 292.00\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2025-05-18T02:14:14.002+0600","caller":"core/lifecycle.go:516","msg":"Job ID: d82076ac-8d7e-4fbf-ad11-56f63a39cea0"}
+{"level":"debug","time":"2025-05-18T02:14:14.002+0600","caller":"core/lifecycle.go:522","msg":"User has provided playwright as test type for the job with ID d82076ac-8d7e-4fbf-ad11-56f63a39cea0"}
+{"level":"debug","time":"2025-05-18T02:14:14.002+0600","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-05-18T02:14:14.002+0600","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-05-18T02:14:14.008+0600","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-05-18T02:14:14.009+0600","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: D:\\foreman\\HyperExecute\\Playwright-Assignment-102"}
+{"level":"debug","time":"2025-05-18T02:14:15.657+0600","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-05-18T02:14:36.659+0600","caller":"core/lifecycle.go:659","msg":"Zip file size: 229.59 MB"}
+{"level":"debug","time":"2025-05-18T02:14:36.660+0600","caller":"core/lifecycle.go:669","msg":"Archive location: D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-d82076ac-8d7e-4fbf-ad11-56f63a39cea0.zip\n"}
+{"level":"debug","time":"2025-05-18T02:14:36.660+0600","caller":"storage/azure.go:59","msg":"Payload size: 229.59 MB, source path D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-d82076ac-8d7e-4fbf-ad11-56f63a39cea0.zip"}
+{"level":"debug","time":"2025-05-18T02:15:55.872+0600","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-05-18T02:15:57.984+0600","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-05-18T02:16:04.095+0600","caller":"storage/azure.go:114","msg":"File upload completed in 1m27.4350618s"}
+{"level":"debug","time":"2025-05-18T02:16:04.096+0600","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-05-18T02:16:04.096+0600","caller":"receptionmanager/setup.go:296","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-05-18T02:16:04.096+0600","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-05-18T02:16:04.098+0600","caller":"storage/azure.go:59","msg":"Payload size: 4.81 kB, source path D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-05-18T02:16:15.148+0600","caller":"storage/azure.go:114","msg":"File upload completed in 11.0512159s"}
+{"level":"debug","time":"2025-05-18T02:16:15.168+0600","caller":"core/lifecycle.go:696","msg":"Successfully deleted code archive: D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-d82076ac-8d7e-4fbf-ad11-56f63a39cea0.zip\n"}
+{"level":"debug","time":"2025-05-18T02:16:15.171+0600","caller":"storage/azure.go:59","msg":"Payload size: 1.41 kB, source path yaml\\win\\mask-d82076ac-8d7e-4fbf-ad11-56f63a39cea0.yaml"}
+{"level":"info","time":"2025-05-18T02:16:26.266+0600","caller":"storage/azure.go:114","msg":"File upload completed in 11.0960725s"}
+{"level":"error","time":"2025-05-18T02:16:29.688+0600","caller":"dispatchermanager/setup.go:79","msg":"2025-05-18T02:14:05+06:00    error    Dispatcher request failed (URL=https://api-hyperexecute.lambdatest.com/dispatcher): Post \"https://api-hyperexecute.lambdatest.com/dispatcher/api/dispatcher\": POST https://api-hyperexecute.lambdatest.com/dispatcher/api/dispatcher giving up after 2 attempt(s)"}
+{"level":"error","time":"2025-05-18T02:16:29.689+0600","caller":"core/lifecycle.go:742","msg":"2025-05-18T02:14:05+06:00    error    ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2025-05-18T02:16:29.690+0600","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-05-18T02:16:29.690+0600","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-05-18T02:16:59.691+0600","caller":"cmd/bin.go:346","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2025-05-18T02:16:59.691+0600","caller":"cmd/bin.go:385","msg":"Exiting application due to error ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2025-05-18T02:18:29.221+0600","caller":"cmd/bin.go:137","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-05-18T02:18:30.073+0600","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.273} "}
+{"level":"warn","time":"2025-05-18T02:18:30.080+0600","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-05-18T02:18:30.081+0600","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-05-18T02:18:34.172+0600","caller":"core/lifecycle.go:108","msg":"Setting environment"}
+{"level":"debug","time":"2025-05-18T02:18:34.173+0600","caller":"core/lifecycle.go:111","msg":"Parsing config"}
+{"level":"debug","time":"2025-05-18T02:18:34.173+0600","caller":"yamlconfigmanager/setup.go:717","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/win/.hyperexecute_matrix.yaml"}
+{"level":"debug","time":"2025-05-18T02:18:34.173+0600","caller":"yamlconfigmanager/setup.go:117","msg":"using hyperexecute config from : yaml/win/.hyperexecute_matrix.yaml"}
+{"level":"debug","time":"2025-05-18T02:18:34.175+0600","caller":"yamlconfigmanager/setup.go:1880","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-05-18T02:18:34.175+0600","caller":"yamlconfigmanager/setup.go:1880","msg":"Environment variable not set against the variable - matrix.files mentioned in yaml"}
+{"level":"debug","time":"2025-05-18T02:18:35.141+0600","caller":"yamlconfigmanager/setup.go:2108","msg":"Autodetecting test type in files of path : D:\\foreman\\HyperExecute\\Playwright-Assignment-102"}
+{"level":"debug","time":"2025-05-18T02:18:35.142+0600","caller":"yamlconfigmanager/setup.go:2150","msg":"File in which test type is detected - D:\\foreman\\HyperExecute\\Playwright-Assignment-102/package.json"}
+{"level":"debug","time":"2025-05-18T02:18:35.142+0600","caller":"yamlconfigmanager/setup.go:2151","msg":"Pre command in which test type is detected - echo \"Installing dependencies and Playwright browsers\""}
+{"level":"debug","time":"2025-05-18T02:18:35.142+0600","caller":"yamlconfigmanager/setup.go:509","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2025-05-18T02:18:36.006+0600","caller":"yamlconfigmanager/setup.go:541","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-05-18T02:18:36.006+0600","caller":"models/HypertestYamlConfig.go:874","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-05-18T02:18:36.006+0600","caller":"models/HypertestYamlConfig.go:673","msg":"Mode:    \u001b[36mhybrid\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:18:36.008+0600","caller":"models/HypertestYamlConfig.go:727","msg":"Parallelism:    \u001b[36m Windows - 1  Default - 1\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:18:36.008+0600","caller":"models/HypertestYamlConfig.go:735","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:18:36.009+0600","caller":"models/HypertestYamlConfig.go:743","msg":"Concurrency:    \u001b[36m3\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:18:36.010+0600","caller":"models/HypertestYamlConfig.go:807","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:18:36.012+0600","caller":"models/HypertestYamlConfig.go:821","msg":"Artefacts:"}
+{"level":"info","time":"2025-05-18T02:18:36.014+0600","caller":"models/HypertestYamlConfig.go:824","msg":"    HTML Report:    \u001b[36mplaywright-report/**\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:18:36.016+0600","caller":"models/HypertestYamlConfig.go:824","msg":"    Test Results:    \u001b[36mtest-results/**\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:18:36.018+0600","caller":"models/HypertestYamlConfig.go:824","msg":"    Trace Files:    \u001b[36mtrace-files/**\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:18:36.020+0600","caller":"models/HypertestYamlConfig.go:824","msg":"    Screenshots:    \u001b[36mscreenshots/**\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:18:36.021+0600","caller":"models/HypertestYamlConfig.go:839","msg":"Cache Directories:"}
+{"level":"info","time":"2025-05-18T02:18:36.022+0600","caller":"models/HypertestYamlConfig.go:841","msg":"    \u001b[36mnode_modules\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:18:36.024+0600","caller":"models/HypertestYamlConfig.go:887","msg":""}
+{"level":"debug","time":"2025-05-18T02:18:36.025+0600","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-18T02:18:36.027+0600","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2025-05-18T02:18:37.083+0600","caller":"core/lifecycle.go:437","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 2.67 % of your limit. Free trial mins left - 292.00\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2025-05-18T02:18:37.084+0600","caller":"core/lifecycle.go:516","msg":"Job ID: a1db3a3b-e3b0-420b-8c62-492f23c160e1"}
+{"level":"debug","time":"2025-05-18T02:18:37.084+0600","caller":"core/lifecycle.go:522","msg":"User has provided playwright as test type for the job with ID a1db3a3b-e3b0-420b-8c62-492f23c160e1"}
+{"level":"debug","time":"2025-05-18T02:18:37.084+0600","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-05-18T02:18:37.085+0600","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-05-18T02:18:37.089+0600","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-05-18T02:18:37.089+0600","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: D:\\foreman\\HyperExecute\\Playwright-Assignment-102"}
+{"level":"debug","time":"2025-05-18T02:18:38.539+0600","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-05-18T02:18:49.463+0600","caller":"cmd/bin.go:354","msg":"main: received C-c - attempting graceful shutdown ...."}
+{"level":"debug","time":"2025-05-18T02:18:49.463+0600","caller":"cmd/bin.go:355","msg":"Sending abort job signal to sentinel"}
+{"level":"debug","time":"2025-05-18T02:18:49.463+0600","caller":"cmd/bin.go:361","msg":"Sending request to abort job"}
+{"level":"debug","time":"2025-05-18T02:18:51.468+0600","caller":"cmd/bin.go:370","msg":"main: telling goroutines to stop"}
+{"level":"debug","time":"2025-05-18T02:18:57.083+0600","caller":"core/lifecycle.go:659","msg":"Zip file size: 229.59 MB"}
+{"level":"debug","time":"2025-05-18T02:18:57.084+0600","caller":"core/lifecycle.go:669","msg":"Archive location: D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-a1db3a3b-e3b0-420b-8c62-492f23c160e1.zip\n"}
+{"level":"debug","time":"2025-05-18T02:18:57.084+0600","caller":"storage/azure.go:59","msg":"Payload size: 229.59 MB, source path D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-a1db3a3b-e3b0-420b-8c62-492f23c160e1.zip"}
+{"level":"info","time":"2025-05-18T02:19:05.193+0600","caller":"storage/azure.go:114","msg":"File upload completed in 8.108364s"}
+{"level":"debug","time":"2025-05-18T02:19:05.193+0600","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-05-18T02:19:05.193+0600","caller":"receptionmanager/setup.go:296","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-05-18T02:19:05.194+0600","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-05-18T02:19:05.195+0600","caller":"storage/azure.go:59","msg":"Payload size: 4.81 kB, source path D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-05-18T02:19:13.276+0600","caller":"storage/azure.go:114","msg":"File upload completed in 8.0826958s"}
+{"level":"debug","time":"2025-05-18T02:19:13.295+0600","caller":"core/lifecycle.go:696","msg":"Successfully deleted code archive: D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-a1db3a3b-e3b0-420b-8c62-492f23c160e1.zip\n"}
+{"level":"debug","time":"2025-05-18T02:19:13.297+0600","caller":"storage/azure.go:59","msg":"Payload size: 1.42 kB, source path yaml\\win\\mask-a1db3a3b-e3b0-420b-8c62-492f23c160e1.yaml"}
+{"level":"info","time":"2025-05-18T02:19:21.375+0600","caller":"storage/azure.go:114","msg":"File upload completed in 8.0783912s"}
+{"level":"error","time":"2025-05-18T02:19:21.375+0600","caller":"dispatchermanager/setup.go:79","msg":"2025-05-18T02:18:28+06:00    error    Dispatcher request failed (URL=https://api-hyperexecute.lambdatest.com/dispatcher): Post \"https://api-hyperexecute.lambdatest.com/dispatcher/api/dispatcher\": POST https://api-hyperexecute.lambdatest.com/dispatcher/api/dispatcher giving up after 1 attempt(s): context canceled"}
+{"level":"error","time":"2025-05-18T02:19:21.375+0600","caller":"core/lifecycle.go:742","msg":"2025-05-18T02:18:28+06:00    error    ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2025-05-18T02:19:21.376+0600","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-05-18T02:19:21.376+0600","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-05-18T02:19:51.376+0600","caller":"cmd/bin.go:346","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2025-05-18T02:19:51.376+0600","caller":"cmd/bin.go:374","msg":"Go routines exited within timeout"}
+{"level":"debug","time":"2025-05-18T02:28:24.011+0600","caller":"cmd/bin.go:137","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-05-18T02:28:24.861+0600","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.273} "}
+{"level":"warn","time":"2025-05-18T02:28:24.869+0600","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-05-18T02:28:24.870+0600","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-05-18T02:28:28.377+0600","caller":"core/lifecycle.go:108","msg":"Setting environment"}
+{"level":"debug","time":"2025-05-18T02:28:28.378+0600","caller":"core/lifecycle.go:111","msg":"Parsing config"}
+{"level":"debug","time":"2025-05-18T02:28:28.378+0600","caller":"yamlconfigmanager/setup.go:717","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/win/.hyperexecute_matrix.yaml"}
+{"level":"debug","time":"2025-05-18T02:28:28.378+0600","caller":"yamlconfigmanager/setup.go:117","msg":"using hyperexecute config from : yaml/win/.hyperexecute_matrix.yaml"}
+{"level":"debug","time":"2025-05-18T02:28:28.380+0600","caller":"yamlconfigmanager/setup.go:1880","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-05-18T02:28:28.380+0600","caller":"yamlconfigmanager/setup.go:1880","msg":"Environment variable not set against the variable - matrix.files mentioned in yaml"}
+{"level":"debug","time":"2025-05-18T02:28:30.349+0600","caller":"yamlconfigmanager/setup.go:2108","msg":"Autodetecting test type in files of path : D:\\foreman\\HyperExecute\\Playwright-Assignment-102"}
+{"level":"debug","time":"2025-05-18T02:28:30.350+0600","caller":"yamlconfigmanager/setup.go:2150","msg":"File in which test type is detected - D:\\foreman\\HyperExecute\\Playwright-Assignment-102/package.json"}
+{"level":"debug","time":"2025-05-18T02:28:30.350+0600","caller":"yamlconfigmanager/setup.go:2151","msg":"Pre command in which test type is detected - echo \"Installing dependencies and Playwright browsers\""}
+{"level":"debug","time":"2025-05-18T02:28:30.350+0600","caller":"yamlconfigmanager/setup.go:509","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2025-05-18T02:28:31.218+0600","caller":"yamlconfigmanager/setup.go:541","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-05-18T02:28:31.218+0600","caller":"models/HypertestYamlConfig.go:874","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-05-18T02:28:31.218+0600","caller":"models/HypertestYamlConfig.go:673","msg":"Mode:    \u001b[36mhybrid\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:28:31.219+0600","caller":"models/HypertestYamlConfig.go:727","msg":"Parallelism:    \u001b[36m Mac - 1 Linux - 1 Windows - 1  Default - 1\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:28:31.220+0600","caller":"models/HypertestYamlConfig.go:735","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:28:31.221+0600","caller":"models/HypertestYamlConfig.go:743","msg":"Concurrency:    \u001b[36m3\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:28:31.221+0600","caller":"models/HypertestYamlConfig.go:807","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:28:31.221+0600","caller":"models/HypertestYamlConfig.go:821","msg":"Artefacts:"}
+{"level":"info","time":"2025-05-18T02:28:31.222+0600","caller":"models/HypertestYamlConfig.go:824","msg":"    HTML Report:    \u001b[36mplaywright-report/**\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:28:31.223+0600","caller":"models/HypertestYamlConfig.go:824","msg":"    Test Results:    \u001b[36mtest-results/**\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:28:31.224+0600","caller":"models/HypertestYamlConfig.go:824","msg":"    Trace Files:    \u001b[36mtrace-files/**\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:28:31.225+0600","caller":"models/HypertestYamlConfig.go:824","msg":"    Screenshots:    \u001b[36mscreenshots/**\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:28:31.226+0600","caller":"models/HypertestYamlConfig.go:839","msg":"Cache Directories:"}
+{"level":"info","time":"2025-05-18T02:28:31.227+0600","caller":"models/HypertestYamlConfig.go:841","msg":"    \u001b[36mnode_modules\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:28:31.228+0600","caller":"models/HypertestYamlConfig.go:887","msg":""}
+{"level":"debug","time":"2025-05-18T02:28:31.229+0600","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-18T02:28:31.229+0600","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2025-05-18T02:28:32.232+0600","caller":"core/lifecycle.go:437","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 2.67 % of your limit. Free trial mins left - 292.00\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2025-05-18T02:28:32.233+0600","caller":"core/lifecycle.go:516","msg":"Job ID: 5aa1f165-786b-4a04-acac-a3f721eba169"}
+{"level":"debug","time":"2025-05-18T02:28:32.233+0600","caller":"core/lifecycle.go:522","msg":"User has provided playwright as test type for the job with ID 5aa1f165-786b-4a04-acac-a3f721eba169"}
+{"level":"debug","time":"2025-05-18T02:28:32.233+0600","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-05-18T02:28:32.234+0600","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-05-18T02:28:32.238+0600","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-05-18T02:28:32.239+0600","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: D:\\foreman\\HyperExecute\\Playwright-Assignment-102"}
+{"level":"debug","time":"2025-05-18T02:28:33.804+0600","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-05-18T02:28:56.919+0600","caller":"core/lifecycle.go:659","msg":"Zip file size: 229.59 MB"}
+{"level":"debug","time":"2025-05-18T02:28:56.919+0600","caller":"core/lifecycle.go:669","msg":"Archive location: D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-5aa1f165-786b-4a04-acac-a3f721eba169.zip\n"}
+{"level":"debug","time":"2025-05-18T02:28:56.921+0600","caller":"storage/azure.go:59","msg":"Payload size: 229.59 MB, source path D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-5aa1f165-786b-4a04-acac-a3f721eba169.zip"}
+{"level":"debug","time":"2025-05-18T02:30:14.111+0600","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-05-18T02:30:15.951+0600","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-05-18T02:30:28.395+0600","caller":"storage/azure.go:114","msg":"File upload completed in 1m31.473986s"}
+{"level":"debug","time":"2025-05-18T02:30:28.395+0600","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-05-18T02:30:28.395+0600","caller":"receptionmanager/setup.go:296","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-05-18T02:30:28.396+0600","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-05-18T02:30:28.398+0600","caller":"storage/azure.go:59","msg":"Payload size: 5.05 kB, source path D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-05-18T02:30:39.560+0600","caller":"storage/azure.go:114","msg":"File upload completed in 11.1641625s"}
+{"level":"debug","time":"2025-05-18T02:30:39.580+0600","caller":"core/lifecycle.go:696","msg":"Successfully deleted code archive: D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-5aa1f165-786b-4a04-acac-a3f721eba169.zip\n"}
+{"level":"debug","time":"2025-05-18T02:30:39.582+0600","caller":"storage/azure.go:59","msg":"Payload size: 1.43 kB, source path yaml\\win\\mask-5aa1f165-786b-4a04-acac-a3f721eba169.yaml"}
+{"level":"info","time":"2025-05-18T02:30:50.650+0600","caller":"storage/azure.go:114","msg":"File upload completed in 11.0687382s"}
+{"level":"error","time":"2025-05-18T02:30:53.992+0600","caller":"dispatchermanager/setup.go:79","msg":"2025-05-18T02:28:23+06:00    error    Dispatcher request failed (URL=https://api-hyperexecute.lambdatest.com/dispatcher): Post \"https://api-hyperexecute.lambdatest.com/dispatcher/api/dispatcher\": POST https://api-hyperexecute.lambdatest.com/dispatcher/api/dispatcher giving up after 2 attempt(s)"}
+{"level":"error","time":"2025-05-18T02:30:53.992+0600","caller":"core/lifecycle.go:742","msg":"2025-05-18T02:28:23+06:00    error    ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2025-05-18T02:30:53.993+0600","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-05-18T02:30:53.993+0600","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-05-18T02:31:23.994+0600","caller":"cmd/bin.go:346","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2025-05-18T02:31:23.994+0600","caller":"cmd/bin.go:385","msg":"Exiting application due to error ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2025-05-18T02:36:29.938+0600","caller":"cmd/bin.go:137","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-05-18T02:36:30.772+0600","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.273} "}
+{"level":"warn","time":"2025-05-18T02:36:30.778+0600","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-05-18T02:36:30.779+0600","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-05-18T02:36:34.708+0600","caller":"core/lifecycle.go:108","msg":"Setting environment"}
+{"level":"debug","time":"2025-05-18T02:36:34.709+0600","caller":"core/lifecycle.go:111","msg":"Parsing config"}
+{"level":"debug","time":"2025-05-18T02:36:34.709+0600","caller":"yamlconfigmanager/setup.go:717","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/win/.hyperexecute_matrix.yaml"}
+{"level":"debug","time":"2025-05-18T02:36:34.709+0600","caller":"yamlconfigmanager/setup.go:117","msg":"using hyperexecute config from : yaml/win/.hyperexecute_matrix.yaml"}
+{"level":"debug","time":"2025-05-18T02:36:34.711+0600","caller":"yamlconfigmanager/setup.go:1880","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-05-18T02:36:34.711+0600","caller":"yamlconfigmanager/setup.go:1880","msg":"Environment variable not set against the variable - matrix.files mentioned in yaml"}
+{"level":"debug","time":"2025-05-18T02:36:35.672+0600","caller":"yamlconfigmanager/setup.go:2108","msg":"Autodetecting test type in files of path : D:\\foreman\\HyperExecute\\Playwright-Assignment-102"}
+{"level":"debug","time":"2025-05-18T02:36:35.673+0600","caller":"yamlconfigmanager/setup.go:2150","msg":"File in which test type is detected - D:\\foreman\\HyperExecute\\Playwright-Assignment-102/package.json"}
+{"level":"debug","time":"2025-05-18T02:36:35.673+0600","caller":"yamlconfigmanager/setup.go:2151","msg":"Pre command in which test type is detected - npx playwright install"}
+{"level":"debug","time":"2025-05-18T02:36:35.673+0600","caller":"yamlconfigmanager/setup.go:509","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2025-05-18T02:36:36.528+0600","caller":"yamlconfigmanager/setup.go:541","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-05-18T02:36:36.528+0600","caller":"models/HypertestYamlConfig.go:874","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-05-18T02:36:36.528+0600","caller":"models/HypertestYamlConfig.go:677","msg":"Mode:    \u001b[36mmatrix\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:36:36.530+0600","caller":"models/HypertestYamlConfig.go:735","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:36:36.530+0600","caller":"models/HypertestYamlConfig.go:807","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:36:36.531+0600","caller":"models/HypertestYamlConfig.go:839","msg":"Cache Directories:"}
+{"level":"info","time":"2025-05-18T02:36:36.531+0600","caller":"models/HypertestYamlConfig.go:841","msg":"    \u001b[36mnode_modules\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:36:36.531+0600","caller":"models/HypertestYamlConfig.go:887","msg":""}
+{"level":"debug","time":"2025-05-18T02:36:36.531+0600","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-18T02:36:36.531+0600","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2025-05-18T02:36:37.566+0600","caller":"core/lifecycle.go:437","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 2.67 % of your limit. Free trial mins left - 292.00\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2025-05-18T02:36:37.567+0600","caller":"core/lifecycle.go:516","msg":"Job ID: 62fed7dc-e53c-423a-aa70-6b668b9c4552"}
+{"level":"debug","time":"2025-05-18T02:36:37.567+0600","caller":"core/lifecycle.go:522","msg":"User has provided playwright as test type for the job with ID 62fed7dc-e53c-423a-aa70-6b668b9c4552"}
+{"level":"debug","time":"2025-05-18T02:36:37.567+0600","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-05-18T02:36:37.568+0600","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-05-18T02:36:37.572+0600","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-05-18T02:36:37.572+0600","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: D:\\foreman\\HyperExecute\\Playwright-Assignment-102"}
+{"level":"debug","time":"2025-05-18T02:36:39.108+0600","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-05-18T02:36:58.207+0600","caller":"core/lifecycle.go:659","msg":"Zip file size: 229.59 MB"}
+{"level":"debug","time":"2025-05-18T02:36:58.208+0600","caller":"core/lifecycle.go:669","msg":"Archive location: D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-62fed7dc-e53c-423a-aa70-6b668b9c4552.zip\n"}
+{"level":"debug","time":"2025-05-18T02:36:58.209+0600","caller":"storage/azure.go:59","msg":"Payload size: 229.59 MB, source path D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-62fed7dc-e53c-423a-aa70-6b668b9c4552.zip"}
+{"level":"debug","time":"2025-05-18T02:38:19.417+0600","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-05-18T02:38:21.044+0600","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-05-18T02:38:21.387+0600","caller":"storage/azure.go:114","msg":"File upload completed in 1m23.1780907s"}
+{"level":"debug","time":"2025-05-18T02:38:21.388+0600","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-05-18T02:38:21.388+0600","caller":"receptionmanager/setup.go:296","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-05-18T02:38:21.389+0600","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-05-18T02:38:21.390+0600","caller":"storage/azure.go:59","msg":"Payload size: 3.20 kB, source path D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-05-18T02:38:32.438+0600","caller":"storage/azure.go:114","msg":"File upload completed in 11.0480817s"}
+{"level":"debug","time":"2025-05-18T02:38:32.456+0600","caller":"core/lifecycle.go:696","msg":"Successfully deleted code archive: D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-62fed7dc-e53c-423a-aa70-6b668b9c4552.zip\n"}
+{"level":"debug","time":"2025-05-18T02:38:32.457+0600","caller":"storage/azure.go:59","msg":"Payload size: 367 B, source path yaml\\win\\mask-62fed7dc-e53c-423a-aa70-6b668b9c4552.yaml"}
+{"level":"info","time":"2025-05-18T02:38:43.536+0600","caller":"storage/azure.go:114","msg":"File upload completed in 11.0790673s"}
+{"level":"info","time":"2025-05-18T02:38:44.683+0600","caller":"jobmanager/sse_setup.go:87","msg":"\nJob 62fed7dc-e53c-423a-aa70-6b668b9c4552 has INITIATED"}
+{"level":"info","time":"2025-05-18T02:38:44.684+0600","caller":"jobmanager/manager.go:143","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=62fed7dc-e53c-423a-aa70-6b668b9c4552\n"}
+{"level":"debug","time":"2025-05-18T02:38:45.726+0600","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPW-2400835-1747514324785234704WHF"}
+{"level":"debug","time":"2025-05-18T02:38:45.726+0600","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPW-2400835-1747514324785234704WHF"}
+{"level":"info","time":"2025-05-18T02:39:07.827+0600","caller":"terminal/terminal.go:187","msg":"✔ [1]  cache-download (12s)\n"}
+{"level":"info","time":"2025-05-18T02:39:31.901+0600","caller":"terminal/terminal.go:187","msg":"✔ [1]  pre (24s)\n"}
+{"level":"info","time":"2025-05-18T02:39:55.207+0600","caller":"terminal/terminal.go:187","msg":"✔ [1]  npx codeceptjs run ${matrix.files} --steps (21s)\n"}
+{"level":"debug","time":"2025-05-18T02:39:57.394+0600","caller":"jobmanager/sse_setup.go:141","msg":"\n\nJob status"}
+{"level":"debug","time":"2025-05-18T02:39:57.394+0600","caller":"core/lifecycle.go:874","msg":"Context canceled"}
+{"level":"info","time":"2025-05-18T02:39:57.394+0600","caller":"core/lifecycle.go:877","msg":"Stopping pipeline gracefully"}
+{"level":"info","time":"2025-05-18T02:39:57.394+0600","caller":"jobmanager/manager.go:143","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=62fed7dc-e53c-423a-aa70-6b668b9c4552\n"}
+{"level":"debug","time":"2025-05-18T02:39:57.396+0600","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-05-18T02:39:57.396+0600","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2025-05-18T02:39:58.250+0600","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n PARTIALLY COMPLETED \n"}
+{"level":"info","time":"2025-05-18T02:39:58.251+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Test Execution Time:                  21s"}
+{"level":"info","time":"2025-05-18T02:39:58.252+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Job Duration Time:                    1m9s"}
+{"level":"info","time":"2025-05-18T02:39:58.252+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Tasks:                          1"}
+{"level":"info","time":"2025-05-18T02:39:58.252+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Cumulative Time Consumed:             1m9s"}
+{"level":"info","time":"2025-05-18T02:39:58.253+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Stages:                         2"}
+{"level":"info","time":"2025-05-18T02:39:58.253+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass discovery stage percentage:      0.00%"}
+{"level":"info","time":"2025-05-18T02:39:58.253+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2025-05-18T02:39:58.254+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2025-05-18T02:39:58.254+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2025-05-18T02:39:58.255+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass test stage percentage:           100.00%"}
+{"level":"info","time":"2025-05-18T02:39:58.255+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed test stage percentage:         0.00%"}
+{"level":"info","time":"2025-05-18T02:39:58.255+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2025-05-18T02:39:58.256+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2025-05-18T02:39:58.256+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed Tasks:                         0"}
+{"level":"info","time":"2025-05-18T02:39:58.256+0600","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2025-05-18T02:40:27.397+0600","caller":"cmd/bin.go:346","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2025-05-18T02:52:37.297+0600","caller":"cmd/bin.go:137","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-05-18T02:52:38.121+0600","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.273} "}
+{"level":"warn","time":"2025-05-18T02:52:38.129+0600","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-05-18T02:52:38.130+0600","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-05-18T02:52:41.952+0600","caller":"core/lifecycle.go:108","msg":"Setting environment"}
+{"level":"debug","time":"2025-05-18T02:52:41.952+0600","caller":"core/lifecycle.go:111","msg":"Parsing config"}
+{"level":"debug","time":"2025-05-18T02:52:41.952+0600","caller":"yamlconfigmanager/setup.go:717","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/mac/.hyperexecute_matrix.yaml"}
+{"level":"debug","time":"2025-05-18T02:52:41.952+0600","caller":"yamlconfigmanager/setup.go:117","msg":"using hyperexecute config from : yaml/mac/.hyperexecute_matrix.yaml"}
+{"level":"debug","time":"2025-05-18T02:52:41.953+0600","caller":"yamlconfigmanager/setup.go:1880","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-05-18T02:52:41.954+0600","caller":"yamlconfigmanager/setup.go:1880","msg":"Environment variable not set against the variable - matrix.files mentioned in yaml"}
+{"level":"debug","time":"2025-05-18T02:52:42.927+0600","caller":"yamlconfigmanager/setup.go:2108","msg":"Autodetecting test type in files of path : D:\\foreman\\HyperExecute\\Playwright-Assignment-102"}
+{"level":"debug","time":"2025-05-18T02:52:42.927+0600","caller":"yamlconfigmanager/setup.go:2150","msg":"File in which test type is detected - D:\\foreman\\HyperExecute\\Playwright-Assignment-102/package.json"}
+{"level":"debug","time":"2025-05-18T02:52:42.927+0600","caller":"yamlconfigmanager/setup.go:2151","msg":"Pre command in which test type is detected - npx playwright install"}
+{"level":"debug","time":"2025-05-18T02:52:42.927+0600","caller":"yamlconfigmanager/setup.go:509","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2025-05-18T02:52:43.781+0600","caller":"yamlconfigmanager/setup.go:541","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-05-18T02:52:43.782+0600","caller":"models/HypertestYamlConfig.go:874","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-05-18T02:52:43.782+0600","caller":"models/HypertestYamlConfig.go:677","msg":"Mode:    \u001b[36mmatrix\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:52:43.783+0600","caller":"models/HypertestYamlConfig.go:735","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:52:43.784+0600","caller":"models/HypertestYamlConfig.go:807","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:52:43.784+0600","caller":"models/HypertestYamlConfig.go:839","msg":"Cache Directories:"}
+{"level":"info","time":"2025-05-18T02:52:43.784+0600","caller":"models/HypertestYamlConfig.go:841","msg":"    \u001b[36mnode_modules\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:52:43.785+0600","caller":"models/HypertestYamlConfig.go:887","msg":""}
+{"level":"debug","time":"2025-05-18T02:52:43.785+0600","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-18T02:52:43.785+0600","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2025-05-18T02:52:44.780+0600","caller":"core/lifecycle.go:437","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 3.00 % of your limit. Free trial mins left - 291.00\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2025-05-18T02:52:44.781+0600","caller":"core/lifecycle.go:516","msg":"Job ID: 813d07a0-3641-492b-aa6c-86fef5e4033a"}
+{"level":"debug","time":"2025-05-18T02:52:44.781+0600","caller":"core/lifecycle.go:522","msg":"User has provided playwright as test type for the job with ID 813d07a0-3641-492b-aa6c-86fef5e4033a"}
+{"level":"debug","time":"2025-05-18T02:52:44.781+0600","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-05-18T02:52:44.781+0600","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-05-18T02:52:44.785+0600","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-05-18T02:52:44.785+0600","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: D:\\foreman\\HyperExecute\\Playwright-Assignment-102"}
+{"level":"debug","time":"2025-05-18T02:52:46.350+0600","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-05-18T02:53:08.853+0600","caller":"core/lifecycle.go:659","msg":"Zip file size: 229.59 MB"}
+{"level":"debug","time":"2025-05-18T02:53:08.855+0600","caller":"core/lifecycle.go:669","msg":"Archive location: D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-813d07a0-3641-492b-aa6c-86fef5e4033a.zip\n"}
+{"level":"debug","time":"2025-05-18T02:53:08.855+0600","caller":"storage/azure.go:59","msg":"Payload size: 229.59 MB, source path D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-813d07a0-3641-492b-aa6c-86fef5e4033a.zip"}
+{"level":"debug","time":"2025-05-18T02:54:26.647+0600","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-05-18T02:54:27.582+0600","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-05-18T02:54:36.233+0600","caller":"storage/azure.go:114","msg":"File upload completed in 1m27.3781676s"}
+{"level":"debug","time":"2025-05-18T02:54:36.234+0600","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-05-18T02:54:36.234+0600","caller":"receptionmanager/setup.go:296","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-05-18T02:54:36.234+0600","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-05-18T02:54:36.236+0600","caller":"storage/azure.go:59","msg":"Payload size: 3.20 kB, source path D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-05-18T02:54:47.418+0600","caller":"storage/azure.go:114","msg":"File upload completed in 11.1838539s"}
+{"level":"debug","time":"2025-05-18T02:54:47.441+0600","caller":"core/lifecycle.go:696","msg":"Successfully deleted code archive: D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-813d07a0-3641-492b-aa6c-86fef5e4033a.zip\n"}
+{"level":"debug","time":"2025-05-18T02:54:47.443+0600","caller":"storage/azure.go:59","msg":"Payload size: 367 B, source path yaml\\mac\\mask-813d07a0-3641-492b-aa6c-86fef5e4033a.yaml"}
+{"level":"info","time":"2025-05-18T02:54:58.595+0600","caller":"storage/azure.go:114","msg":"File upload completed in 11.1529053s"}
+{"level":"error","time":"2025-05-18T02:55:01.219+0600","caller":"dispatchermanager/setup.go:79","msg":"2025-05-18T02:52:36+06:00    error    Dispatcher request failed (URL=https://api-hyperexecute.lambdatest.com/dispatcher): Post \"https://api-hyperexecute.lambdatest.com/dispatcher/api/dispatcher\": POST https://api-hyperexecute.lambdatest.com/dispatcher/api/dispatcher giving up after 2 attempt(s)"}
+{"level":"error","time":"2025-05-18T02:55:01.219+0600","caller":"core/lifecycle.go:742","msg":"2025-05-18T02:52:36+06:00    error    ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2025-05-18T02:55:01.220+0600","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-05-18T02:55:01.220+0600","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-05-18T02:55:31.221+0600","caller":"cmd/bin.go:346","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2025-05-18T02:55:31.221+0600","caller":"cmd/bin.go:385","msg":"Exiting application due to error ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2025-05-18T02:57:48.344+0600","caller":"cmd/bin.go:137","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-05-18T02:57:50.817+0600","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.273} "}
+{"level":"warn","time":"2025-05-18T02:57:50.824+0600","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-05-18T02:57:50.824+0600","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-05-18T02:57:54.536+0600","caller":"core/lifecycle.go:108","msg":"Setting environment"}
+{"level":"debug","time":"2025-05-18T02:57:54.537+0600","caller":"core/lifecycle.go:111","msg":"Parsing config"}
+{"level":"debug","time":"2025-05-18T02:57:54.537+0600","caller":"yamlconfigmanager/setup.go:717","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/win/.hyperexecute_autosplits.yaml"}
+{"level":"debug","time":"2025-05-18T02:57:54.537+0600","caller":"yamlconfigmanager/setup.go:117","msg":"using hyperexecute config from : yaml/win/.hyperexecute_autosplits.yaml"}
+{"level":"error","time":"2025-05-18T02:57:54.544+0600","caller":"yamlconfigmanager/setup.go:197","msg":"2025-05-18T02:57:47+06:00    error    \u001b[91mERR::PAR::HT_YAML\u001b[0m     Unable to parse hyperexecute yaml. yaml: unmarshal errors:\n  line 27: cannot unmarshal !!map into []string"}
+{"level":"error","time":"2025-05-18T02:57:54.545+0600","caller":"core/lifecycle.go:116","msg":"2025-05-18T02:57:47+06:00    error    \u001b[91mERR::PAR::HT_YAML\u001b[0m     Unable to parse hyperexecute yaml. yaml: unmarshal errors:\n  line 27: cannot unmarshal !!map into []string"}
+{"level":"debug","time":"2025-05-18T02:57:54.546+0600","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-05-18T02:57:54.546+0600","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-05-18T02:57:54.546+0600","caller":"core/lifecycle.go:63","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-05-18T02:57:54.546+0600","caller":"cmd/bin.go:346","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2025-05-18T02:57:54.546+0600","caller":"cmd/bin.go:385","msg":"Exiting application due to error \u001b[91mERR::PAR::HT_YAML\u001b[0m     Unable to parse hyperexecute yaml. yaml: unmarshal errors:\n  line 27: cannot unmarshal !!map into []string"}
+{"level":"debug","time":"2025-05-18T02:58:22.284+0600","caller":"cmd/bin.go:137","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-05-18T02:58:23.142+0600","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.273} "}
+{"level":"warn","time":"2025-05-18T02:58:23.150+0600","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-05-18T02:58:23.152+0600","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-05-18T02:58:25.911+0600","caller":"core/lifecycle.go:108","msg":"Setting environment"}
+{"level":"debug","time":"2025-05-18T02:58:25.911+0600","caller":"core/lifecycle.go:111","msg":"Parsing config"}
+{"level":"debug","time":"2025-05-18T02:58:25.911+0600","caller":"yamlconfigmanager/setup.go:717","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/win/.hyperexecute_matrix.yaml"}
+{"level":"debug","time":"2025-05-18T02:58:25.911+0600","caller":"yamlconfigmanager/setup.go:117","msg":"using hyperexecute config from : yaml/win/.hyperexecute_matrix.yaml"}
+{"level":"debug","time":"2025-05-18T02:58:25.912+0600","caller":"yamlconfigmanager/setup.go:1880","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-05-18T02:58:25.912+0600","caller":"yamlconfigmanager/setup.go:1880","msg":"Environment variable not set against the variable - matrix.files mentioned in yaml"}
+{"level":"debug","time":"2025-05-18T02:58:26.851+0600","caller":"yamlconfigmanager/setup.go:2108","msg":"Autodetecting test type in files of path : D:\\foreman\\HyperExecute\\Playwright-Assignment-102"}
+{"level":"debug","time":"2025-05-18T02:58:26.852+0600","caller":"yamlconfigmanager/setup.go:2150","msg":"File in which test type is detected - D:\\foreman\\HyperExecute\\Playwright-Assignment-102/package.json"}
+{"level":"debug","time":"2025-05-18T02:58:26.852+0600","caller":"yamlconfigmanager/setup.go:2151","msg":"Pre command in which test type is detected - npx playwright install"}
+{"level":"debug","time":"2025-05-18T02:58:26.852+0600","caller":"yamlconfigmanager/setup.go:509","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2025-05-18T02:58:28.013+0600","caller":"yamlconfigmanager/setup.go:541","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-05-18T02:58:28.013+0600","caller":"models/HypertestYamlConfig.go:874","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-05-18T02:58:28.014+0600","caller":"models/HypertestYamlConfig.go:677","msg":"Mode:    \u001b[36mmatrix\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:58:28.014+0600","caller":"models/HypertestYamlConfig.go:735","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:58:28.014+0600","caller":"models/HypertestYamlConfig.go:807","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:58:28.014+0600","caller":"models/HypertestYamlConfig.go:839","msg":"Cache Directories:"}
+{"level":"info","time":"2025-05-18T02:58:28.014+0600","caller":"models/HypertestYamlConfig.go:841","msg":"    \u001b[36mnode_modules\u001b[0m"}
+{"level":"info","time":"2025-05-18T02:58:28.014+0600","caller":"models/HypertestYamlConfig.go:887","msg":""}
+{"level":"debug","time":"2025-05-18T02:58:28.014+0600","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-18T02:58:28.014+0600","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2025-05-18T02:58:29.011+0600","caller":"core/lifecycle.go:437","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 3.00 % of your limit. Free trial mins left - 291.00\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2025-05-18T02:58:29.012+0600","caller":"core/lifecycle.go:516","msg":"Job ID: e08bbcc5-527d-49c2-8917-b79aa42e5c8f"}
+{"level":"debug","time":"2025-05-18T02:58:29.012+0600","caller":"core/lifecycle.go:522","msg":"User has provided playwright as test type for the job with ID e08bbcc5-527d-49c2-8917-b79aa42e5c8f"}
+{"level":"debug","time":"2025-05-18T02:58:29.012+0600","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-05-18T02:58:29.012+0600","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-05-18T02:58:29.014+0600","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-05-18T02:58:29.014+0600","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: D:\\foreman\\HyperExecute\\Playwright-Assignment-102"}
+{"level":"debug","time":"2025-05-18T02:58:30.516+0600","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-05-18T02:58:52.943+0600","caller":"core/lifecycle.go:659","msg":"Zip file size: 229.59 MB"}
+{"level":"debug","time":"2025-05-18T02:58:52.944+0600","caller":"core/lifecycle.go:669","msg":"Archive location: D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-e08bbcc5-527d-49c2-8917-b79aa42e5c8f.zip\n"}
+{"level":"debug","time":"2025-05-18T02:58:52.945+0600","caller":"storage/azure.go:59","msg":"Payload size: 229.59 MB, source path D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-e08bbcc5-527d-49c2-8917-b79aa42e5c8f.zip"}
+{"level":"debug","time":"2025-05-18T03:00:10.872+0600","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-05-18T03:00:12.703+0600","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-05-18T03:00:18.207+0600","caller":"storage/azure.go:114","msg":"File upload completed in 1m25.2620012s"}
+{"level":"debug","time":"2025-05-18T03:00:18.210+0600","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-05-18T03:00:18.210+0600","caller":"receptionmanager/setup.go:296","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-05-18T03:00:18.211+0600","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-05-18T03:00:18.212+0600","caller":"storage/azure.go:59","msg":"Payload size: 3.20 kB, source path D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-05-18T03:00:25.429+0600","caller":"cmd/bin.go:354","msg":"main: received C-c - attempting graceful shutdown ...."}
+{"level":"debug","time":"2025-05-18T03:00:25.429+0600","caller":"cmd/bin.go:355","msg":"Sending abort job signal to sentinel"}
+{"level":"debug","time":"2025-05-18T03:00:25.429+0600","caller":"cmd/bin.go:361","msg":"Sending request to abort job"}
+{"level":"debug","time":"2025-05-18T03:00:25.433+0600","caller":"utils/azcopy.go:131","msg":"Updating dependency version..."}
+{"level":"debug","time":"2025-05-18T03:00:25.457+0600","caller":"utils/azcopy.go:143","msg":"Downloading dependency binary ..................."}
+{"level":"debug","time":"2025-05-18T03:00:26.094+0600","caller":"utils/azcopy.go:100","msg":"Downloading dependency to upload files"}
+{"level":"debug","time":"2025-05-18T03:00:27.445+0600","caller":"cmd/bin.go:370","msg":"main: telling goroutines to stop"}
+{"level":"error","time":"2025-05-18T03:00:27.445+0600","caller":"utils/azcopy.go:157","msg":"2025-05-18T02:58:21+06:00    error    ERR::AZCOPY::DOWN     Unable to download azcopy. Please try downloading it from the link https://downloads.hyperexecute.cloud/hyperexecute/windows/azcopy.exe and place inside .hyperexecute directory. Make sure to check any firewall, VPN settings which might block this url.    ERR::OS::WRITE     Unable to write file. context canceled"}
+{"level":"info","time":"2025-05-18T03:00:27.446+0600","caller":"storage/azure.go:153","msg":"Uploading file using azure sdk"}
+{"level":"debug","time":"2025-05-18T03:00:27.744+0600","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-05-18T03:00:27.744+0600","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-05-18T03:00:57.745+0600","caller":"cmd/bin.go:346","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2025-05-18T03:00:57.745+0600","caller":"cmd/bin.go:374","msg":"Go routines exited within timeout"}
+{"level":"debug","time":"2025-05-18T03:01:23.283+0600","caller":"cmd/bin.go:137","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-05-18T03:01:24.117+0600","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.273} "}
+{"level":"warn","time":"2025-05-18T03:01:24.123+0600","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-05-18T03:01:24.124+0600","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-05-18T03:01:27.867+0600","caller":"core/lifecycle.go:108","msg":"Setting environment"}
+{"level":"debug","time":"2025-05-18T03:01:27.867+0600","caller":"core/lifecycle.go:111","msg":"Parsing config"}
+{"level":"debug","time":"2025-05-18T03:01:27.867+0600","caller":"yamlconfigmanager/setup.go:717","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/win/.hyperexecute_autosplits.yaml"}
+{"level":"debug","time":"2025-05-18T03:01:27.868+0600","caller":"yamlconfigmanager/setup.go:117","msg":"using hyperexecute config from : yaml/win/.hyperexecute_autosplits.yaml"}
+{"level":"debug","time":"2025-05-18T03:01:28.836+0600","caller":"yamlconfigmanager/setup.go:2108","msg":"Autodetecting test type in files of path : D:\\foreman\\HyperExecute\\Playwright-Assignment-102"}
+{"level":"debug","time":"2025-05-18T03:01:28.837+0600","caller":"yamlconfigmanager/setup.go:2150","msg":"File in which test type is detected - D:\\foreman\\HyperExecute\\Playwright-Assignment-102/package.json"}
+{"level":"debug","time":"2025-05-18T03:01:28.837+0600","caller":"yamlconfigmanager/setup.go:2151","msg":"Pre command in which test type is detected - npx playwright install"}
+{"level":"debug","time":"2025-05-18T03:01:28.837+0600","caller":"yamlconfigmanager/setup.go:509","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2025-05-18T03:01:28.837+0600","caller":"yamlconfigmanager/setup.go:541","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-05-18T03:01:28.837+0600","caller":"models/HypertestYamlConfig.go:874","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-05-18T03:01:28.838+0600","caller":"models/HypertestYamlConfig.go:675","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-05-18T03:01:28.839+0600","caller":"models/HypertestYamlConfig.go:735","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2025-05-18T03:01:28.839+0600","caller":"models/HypertestYamlConfig.go:743","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2025-05-18T03:01:28.840+0600","caller":"models/HypertestYamlConfig.go:807","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-05-18T03:01:28.840+0600","caller":"models/HypertestYamlConfig.go:839","msg":"Cache Directories:"}
+{"level":"info","time":"2025-05-18T03:01:28.841+0600","caller":"models/HypertestYamlConfig.go:841","msg":"    \u001b[36mnode_modules\u001b[0m"}
+{"level":"info","time":"2025-05-18T03:01:28.841+0600","caller":"models/HypertestYamlConfig.go:887","msg":""}
+{"level":"debug","time":"2025-05-18T03:01:28.841+0600","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-18T03:01:28.842+0600","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2025-05-18T03:01:29.886+0600","caller":"core/lifecycle.go:437","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 3.00 % of your limit. Free trial mins left - 291.00\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2025-05-18T03:01:29.887+0600","caller":"core/lifecycle.go:516","msg":"Job ID: 0cde8aa9-f14b-4985-88ca-512f6ababe79"}
+{"level":"debug","time":"2025-05-18T03:01:29.887+0600","caller":"core/lifecycle.go:522","msg":"User has provided playwright as test type for the job with ID 0cde8aa9-f14b-4985-88ca-512f6ababe79"}
+{"level":"debug","time":"2025-05-18T03:01:29.887+0600","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-05-18T03:01:29.888+0600","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-05-18T03:01:29.891+0600","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-05-18T03:01:29.891+0600","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: D:\\foreman\\HyperExecute\\Playwright-Assignment-102"}
+{"level":"debug","time":"2025-05-18T03:01:31.438+0600","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-05-18T03:01:49.767+0600","caller":"core/lifecycle.go:659","msg":"Zip file size: 229.59 MB"}
+{"level":"debug","time":"2025-05-18T03:01:49.767+0600","caller":"core/lifecycle.go:669","msg":"Archive location: D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-0cde8aa9-f14b-4985-88ca-512f6ababe79.zip\n"}
+{"level":"debug","time":"2025-05-18T03:01:49.768+0600","caller":"storage/azure.go:59","msg":"Payload size: 229.59 MB, source path D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-0cde8aa9-f14b-4985-88ca-512f6ababe79.zip"}
+{"level":"debug","time":"2025-05-18T03:01:49.768+0600","caller":"utils/azcopy.go:131","msg":"Updating dependency version..."}
+{"level":"debug","time":"2025-05-18T03:01:49.768+0600","caller":"utils/azcopy.go:143","msg":"Downloading dependency binary ..................."}
+{"level":"debug","time":"2025-05-18T03:01:50.014+0600","caller":"utils/azcopy.go:100","msg":"Downloading dependency to upload files"}
+{"level":"info","time":"2025-05-18T03:02:02.376+0600","caller":"utils/azcopy.go:118","msg":"✔ Dependency binary downloaded successfully"}
+{"level":"debug","time":"2025-05-18T03:02:02.376+0600","caller":"utils/azcopy.go:190","msg":"returning from fallback"}
+{"level":"debug","time":"2025-05-18T03:03:12.006+0600","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-05-18T03:03:13.089+0600","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-05-18T03:03:21.515+0600","caller":"storage/azure.go:114","msg":"File upload completed in 1m31.7471911s"}
+{"level":"debug","time":"2025-05-18T03:03:21.516+0600","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-05-18T03:03:21.516+0600","caller":"receptionmanager/setup.go:296","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-05-18T03:03:21.516+0600","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-05-18T03:03:21.517+0600","caller":"storage/azure.go:59","msg":"Payload size: 3.43 kB, source path D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-05-18T03:03:32.611+0600","caller":"storage/azure.go:114","msg":"File upload completed in 11.0952823s"}
+{"level":"debug","time":"2025-05-18T03:03:32.632+0600","caller":"core/lifecycle.go:696","msg":"Successfully deleted code archive: D:\\foreman\\HyperExecute\\Playwright-Assignment-102\\hyperexecute-code-0cde8aa9-f14b-4985-88ca-512f6ababe79.zip\n"}
+{"level":"debug","time":"2025-05-18T03:03:32.634+0600","caller":"storage/azure.go:59","msg":"Payload size: 531 B, source path yaml\\win\\mask-0cde8aa9-f14b-4985-88ca-512f6ababe79.yaml"}
+{"level":"info","time":"2025-05-18T03:03:43.723+0600","caller":"storage/azure.go:114","msg":"File upload completed in 11.089573s"}
+{"level":"info","time":"2025-05-18T03:03:46.030+0600","caller":"jobmanager/sse_setup.go:87","msg":"\nJob 0cde8aa9-f14b-4985-88ca-512f6ababe79 has INITIATED"}
+{"level":"info","time":"2025-05-18T03:03:46.031+0600","caller":"jobmanager/manager.go:143","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=0cde8aa9-f14b-4985-88ca-512f6ababe79\n"}
+{"level":"debug","time":"2025-05-18T03:03:47.007+0600","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPW-2400835-1747515826064741596ERO"}
+{"level":"debug","time":"2025-05-18T03:03:47.007+0600","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPW-2400835-1747515826064741596ERO"}
+{"level":"debug","time":"2025-05-18T03:03:47.007+0600","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPW-2400835-1747515826106459649PHB"}
+{"level":"debug","time":"2025-05-18T03:03:47.007+0600","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPW-2400835-1747515826106459649PHB"}
+{"level":"info","time":"2025-05-18T03:04:08.572+0600","caller":"terminal/terminal.go:187","msg":"✔ [1]  cache-download (11s)\n"}
+{"level":"info","time":"2025-05-18T03:04:08.584+0600","caller":"terminal/terminal.go:187","msg":"✔ [2]  cache-download (11s)\n"}
+{"level":"info","time":"2025-05-18T03:04:34.320+0600","caller":"terminal/terminal.go:187","msg":"✔ [1]  pre (27s)\n"}
+{"level":"info","time":"2025-05-18T03:04:34.538+0600","caller":"terminal/terminal.go:187","msg":"✔ [1]  discovery (1s)\n"}
+{"level":"info","time":"2025-05-18T03:04:39.788+0600","caller":"terminal/terminal.go:187","msg":"✔ [2]  pre (32s)\n"}
+{"level":"info","time":"2025-05-18T03:04:40.091+0600","caller":"terminal/terminal.go:187","msg":"✔ [2]  discovery (0s)\n"}
+{"level":"info","time":"2025-05-18T03:04:42.013+0600","caller":"terminal/terminal.go:187","msg":"✔ [2]  post (0s)\n"}
+{"level":"info","time":"2025-05-18T03:04:56.590+0600","caller":"terminal/terminal.go:187","msg":"✔ [1]  lambdatest102_test.js (21s)\n"}
+{"level":"info","time":"2025-05-18T03:04:56.888+0600","caller":"terminal/terminal.go:187","msg":"✔ [1]  post (1s)\n"}
+{"level":"debug","time":"2025-05-18T03:04:58.957+0600","caller":"jobmanager/sse_setup.go:141","msg":"\n\nJob status"}
+{"level":"debug","time":"2025-05-18T03:04:58.957+0600","caller":"core/lifecycle.go:874","msg":"Context canceled"}
+{"level":"info","time":"2025-05-18T03:04:58.957+0600","caller":"core/lifecycle.go:877","msg":"Stopping pipeline gracefully"}
+{"level":"info","time":"2025-05-18T03:04:58.958+0600","caller":"jobmanager/manager.go:143","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=0cde8aa9-f14b-4985-88ca-512f6ababe79\n"}
+{"level":"debug","time":"2025-05-18T03:04:58.958+0600","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-05-18T03:04:58.958+0600","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2025-05-18T03:04:59.819+0600","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n PARTIALLY COMPLETED \n"}
+{"level":"info","time":"2025-05-18T03:04:59.820+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Test Execution Time:                  20s"}
+{"level":"info","time":"2025-05-18T03:04:59.825+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Job Duration Time:                    1m9s"}
+{"level":"info","time":"2025-05-18T03:04:59.831+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Tasks:                          2"}
+{"level":"info","time":"2025-05-18T03:04:59.831+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Cumulative Time Consumed:             2m3s"}
+{"level":"info","time":"2025-05-18T03:04:59.832+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Stages:                         7"}
+{"level":"info","time":"2025-05-18T03:04:59.832+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2025-05-18T03:04:59.833+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2025-05-18T03:04:59.836+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2025-05-18T03:04:59.837+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2025-05-18T03:04:59.837+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass test stage percentage:           100.00%"}
+{"level":"info","time":"2025-05-18T03:04:59.838+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed test stage percentage:         0.00%"}
+{"level":"info","time":"2025-05-18T03:04:59.839+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass post stage percentage:           100.00%"}
+{"level":"info","time":"2025-05-18T03:04:59.839+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2025-05-18T03:04:59.840+0600","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed Tasks:                         0"}
+{"level":"info","time":"2025-05-18T03:04:59.841+0600","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2025-05-18T03:05:28.959+0600","caller":"cmd/bin.go:346","msg":"main: all goroutines have finished."}

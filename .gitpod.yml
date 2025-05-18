@@ -1,0 +1,28 @@
+ports:
+  - port: 3000
+    onOpen: open-preview
+
+env:
+  LT_USERNAME: "akash.ru.37"
+  LT_ACCESS_KEY: "LT_iBAQISth03rYwTdFrzWNdQyhRVZd6eAvwD2QoL2kOHnnbWv"
+
+tasks:
+  - name: Get Core & Configure
+    before: |
+      wget https://downloads.lambdatest.com/hyperexecute/linux/hyperexecute
+      chmod u+x hyperexecute
+      
+    init: |
+      echo "Running HyperExecute with hyperexecute.yaml config for windows"
+      ./hyperexecute --user=$LT_USERNAME --key=$LT_ACCESS_KEY --config yaml/win/.hyperexecute_matrix.yaml --download-artifacts --force-clean-artifacts
+
+      echo "Running HyperExecute with hyperexecute.yaml config for mac"
+      ./hyperexecute --user=$LT_USERNAME --key=$LT_ACCESS_KEY --config yaml/mac/.hyperexecute_matrix.yaml --download-artifacts --force-clean-artifacts
+
+      cho "Running HyperExecute with hyperexecute.yaml config for linux"
+      ./hyperexecute --user=$LT_USERNAME --key=$LT_ACCESS_KEY --config yaml/linux/.hyperexecute_matrix.yaml --download-artifacts --force-clean-artifacts
+      
+      echo "Running HyperExecute with hyperexecute_autosplits.yaml config"
+      ./hyperexecute --user=$LT_USERNAME --key=$LT_ACCESS_KEY --config .hyperexecute_autosplits.yaml --download-artifacts --force-clean-artifacts
+      
+      echo "All tests done"
