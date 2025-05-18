@@ -31,7 +31,7 @@ HyperExecute is a smart test orchestration platform to run end-to-end Playwright
 ### 1. Clone the Repo and Install Dependencies to run in the local machine
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/playwright-assignment-102.git
+git clone https://github.com/Rijvi-Ahmed/LambdaTest-Playwright-102.git
 cd playwright-assignment-102
 npm install
 npx playwright install
@@ -45,7 +45,7 @@ LT_USERNAME=your_lambdatest_username
 LT_ACCESS_KEY=your_lambdatest_access_key
 
 ## Run through Gitpod
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/new/#https://github.com/Rijvi-Ahmed/Playwright-Automation-102)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/new/#https://github.com/Rijvi-Ahmed/LambdaTest-Playwright-102.git)
 
 ## HyperExecute cmd for hyperexecute.yaml & hyperexecute_autosplits.yaml for windows, mac & linux
 

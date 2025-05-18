@@ -19,7 +19,7 @@ tasks:
       echo "Running HyperExecute with hyperexecute.yaml config for mac"
       ./hyperexecute --user=$LT_USERNAME --key=$LT_ACCESS_KEY --config yaml/mac/.hyperexecute_matrix.yaml --download-artifacts --force-clean-artifacts
 
-      cho "Running HyperExecute with hyperexecute.yaml config for linux"
+      echo "Running HyperExecute with hyperexecute.yaml config for linux"
       ./hyperexecute --user=$LT_USERNAME --key=$LT_ACCESS_KEY --config yaml/linux/.hyperexecute_matrix.yaml --download-artifacts --force-clean-artifacts
       
       echo "Running HyperExecute with hyperexecute_autosplits.yaml config"
